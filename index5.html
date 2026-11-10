@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Turnero</title>
+</head>
+<body>
+
+    <h1>Turnero de tatuajes</h1>
+
+    <input type="text" id="cliente" placeholder="Nombre del cliente">
+    <button onclick="agregarTurno()">Agregar turno</button>
+
+    <button onclick="atenderSiguiente()">Atender siguiente</button>
+    <button onclick="cancelarUltimo()">Cancelar último turno</button>
+
+    <h2>Atendiendo ahora:</h2>
+    <p id="atendiendo"></p>
+
+    <h2>Turnos pendientes:</h2>
+    <p id="lista"></p>
+
+    <h2>Personas esperando:</h2>
+    <p id="cantidad"></p>
+
+    <p id="mensaje"></p>
+
+    <script src="js5.js"></script>
+</body>
+</html>

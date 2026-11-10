@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+
+    <h1>Atención al cliente</h1>
+    <p>¿En qué podemos ayudarte?</p>
+
+    <button onclick="consultar('pagos')">Medios de pago</button>
+    <button onclick="consultar('envios')">Envíos</button>
+    <button onclick="consultar('horarios')">Horarios</button>
+    <button onclick="consultar('cambios')">Cambios y devoluciones</button>
+
+    <h2>Conversación:</h2>
+    <div id="historial"></div>
+    <p id="aviso"></p>
+
+    <button onclick="reiniciar()">Reiniciar conversación</button>
+
+    <script src="js3.js"></script>
+</body>
+</html>
